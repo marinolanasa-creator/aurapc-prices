@@ -1,7 +1,7 @@
 {
   "cpus": [
-    { "id": "cpu_athlon_3000g", "name": "AMD Athlon 3000G (2 Core, AM4, con iGPU Vega 3)", "socket": "AM4", "ramType": "DDR4", "hasIGPU": true, "tdp": 35, "bench": 2800, "price": 45.00 },
-    { "id": "cpu_r3_4100", "name": "AMD Ryzen 3 4100 (4 Core, AM4, no iGPU)", "socket": "AM4", "ramType": "DDR4", "hasIGPU": false, "tdp": 65, "bench": 4900, "price": 1168.00 },
+    { "id": "cpu_athlon_3000g", "name": "AMD Athlon 3000G (2 Core, AM4, con iGPU Vega 3)", "socket": "AM4", "ramType": "DDR4", "hasIGPU": true, "tdp": 35, "bench": 2800, "price": 49.00 },
+    { "id": "cpu_r3_4100", "name": "AMD Ryzen 3 4100 (4 Core, AM4, no iGPU)", "socket": "AM4", "ramType": "DDR4", "hasIGPU": false, "tdp": 65, "bench": 4900, "price": 68.00 },
     { "id": "cpu_r5_5500", "name": "AMD Ryzen 5 5500 (6 Core, AM4, no iGPU)", "socket": "AM4", "ramType": "DDR4", "hasIGPU": false, "tdp": 65, "bench": 6800, "price": 95.00 },
     { "id": "cpu_r5_5600g", "name": "AMD Ryzen 5 5600G (6 Core, AM4, con iGPU Vega)", "socket": "AM4", "ramType": "DDR4", "hasIGPU": true, "tdp": 65, "bench": 7400, "price": 125.00 },
     { "id": "cpu_r7_5800x3d", "name": "AMD Ryzen 7 5800X3D (8 Core AM4 Gaming)", "socket": "AM4", "ramType": "DDR4", "hasIGPU": false, "tdp": 105, "bench": 12500, "price": 289.00 },
