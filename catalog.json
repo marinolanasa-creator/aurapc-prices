@@ -1,1 +1,92 @@
-
+{
+  "cpus": [
+    { "id": "cpu_athlon_3000g", "name": "AMD Athlon 3000G (2 Core, AM4, con iGPU Vega 3)", "socket": "AM4", "ramType": "DDR4", "hasIGPU": true, "tdp": 35, "bench": 2800, "price": 49.00 },
+    { "id": "cpu_r3_4100", "name": "AMD Ryzen 3 4100 (4 Core, AM4, no iGPU)", "socket": "AM4", "ramType": "DDR4", "hasIGPU": false, "tdp": 65, "bench": 4900, "price": 68.00 },
+    { "id": "cpu_r5_5500", "name": "AMD Ryzen 5 5500 (6 Core, AM4, no iGPU)", "socket": "AM4", "ramType": "DDR4", "hasIGPU": false, "tdp": 65, "bench": 6800, "price": 95.00 },
+    { "id": "cpu_r5_5600g", "name": "AMD Ryzen 5 5600G (6 Core, AM4, con iGPU Vega)", "socket": "AM4", "ramType": "DDR4", "hasIGPU": true, "tdp": 65, "bench": 7400, "price": 125.00 },
+    { "id": "cpu_r7_5800x3d", "name": "AMD Ryzen 7 5800X3D (8 Core AM4 Gaming)", "socket": "AM4", "ramType": "DDR4", "hasIGPU": false, "tdp": 105, "bench": 12500, "price": 289.00 },
+    { "id": "cpu_r5_7600", "name": "AMD Ryzen 5 7600 (6 Core, AM5, con iGPU)", "socket": "AM5", "ramType": "DDR5", "hasIGPU": true, "tdp": 65, "bench": 10200, "price": 195.00 },
+    { "id": "cpu_r7_7800x3d", "name": "AMD Ryzen 7 7800X3D (8 Core 3D V-Cache, AM5)", "socket": "AM5", "ramType": "DDR5", "hasIGPU": true, "tdp": 120, "bench": 14500, "price": 380.00 },
+    { "id": "cpu_i3_12100f", "name": "Intel Core i3-12100F (4 Core, LGA1700, no iGPU)", "socket": "LGA1700", "ramType": "DDR4/DDR5", "hasIGPU": false, "tdp": 58, "bench": 5200, "price": 79.00 },
+    { "id": "cpu_i5_13400f", "name": "Intel Core i5-13400F (10 Core, LGA1700, no iGPU)", "socket": "LGA1700", "ramType": "DDR4/DDR5", "hasIGPU": false, "tdp": 65, "bench": 8500, "price": 128.00 },
+    { "id": "cpu_i5_13600k", "name": "Intel Core i5-13600K (14 Core, LGA1700)", "socket": "LGA1700", "ramType": "DDR4/DDR5", "hasIGPU": true, "tdp": 125, "bench": 12100, "price": 265.00 },
+    { "id": "cpu_i7_14700k", "name": "Intel Core i7-14700K (20 Core, LGA1700)", "socket": "LGA1700", "ramType": "DDR4/DDR5", "hasIGPU": true, "tdp": 125, "bench": 15200, "price": 395.00 },
+    { "id": "cpu_i9_14900k", "name": "Intel Core i9-14900K (24 Core, LGA1700)", "socket": "LGA1700", "ramType": "DDR4/DDR5", "hasIGPU": true, "tdp": 125, "bench": 17100, "price": 549.00 }
+  ],
+  "mobos": [
+    { "id": "mobo_a320m", "name": "Gigabyte GA-A320M-S2H (mATX, AM4, DDR4, 1x M.2, 4x SATA)", "socket": "AM4", "ramType": "DDR4", "formFactor": "mATX", "m2Slots": 1, "sataPorts": 4, "price": 55.00 },
+    { "id": "mobo_b450m_k", "name": "Gigabyte B450M K (mATX, AM4, DDR4, 1x M.2, 4x SATA)", "socket": "AM4", "ramType": "DDR4", "formFactor": "mATX", "m2Slots": 1, "sataPorts": 4, "price": 68.00 },
+    { "id": "mobo_asus_prime_b550m_a", "name": "ASUS Prime B550M-A (mATX, AM4, DDR4, 2x M.2, 4x SATA)", "socket": "AM4", "ramType": "DDR4", "formFactor": "mATX", "m2Slots": 2, "sataPorts": 4, "price": 98.00 },
+    { "id": "mobo_msi_b550_tomahawk", "name": "MSI MAG B550 TOMAHAWK (ATX, AM4, DDR4, 2x M.2, 6x SATA)", "socket": "AM4", "ramType": "DDR4", "formFactor": "ATX", "m2Slots": 2, "sataPorts": 6, "price": 159.00 },
+    { "id": "mobo_h610m", "name": "MSI PRO H610M-G DDR4 (mATX, LGA1700, DDR4, 1x M.2, 4x SATA)", "socket": "LGA1700", "ramType": "DDR4", "formFactor": "mATX", "m2Slots": 1, "sataPorts": 4, "price": 79.00 },
+    { "id": "mobo_b760_ddr4", "name": "ASUS Prime B760M-A D4 (mATX, LGA1700, DDR4, 2x M.2, 4x SATA)", "socket": "LGA1700", "ramType": "DDR4", "formFactor": "mATX", "m2Slots": 2, "sataPorts": 4, "price": 135.00 },
+    { "id": "mobo_b760_wifi_ddr5", "name": "Gigabyte B760 GAMING X AX (ATX, LGA1700, DDR5, 3x M.2, 4x SATA)", "socket": "LGA1700", "ramType": "DDR5", "formFactor": "ATX", "m2Slots": 3, "sataPorts": 4, "price": 169.00 },
+    { "id": "mobo_z790_wifi", "name": "MSI PRO Z790-P WIFI (ATX, LGA1700, DDR5, 4x M.2, 6x SATA)", "socket": "LGA1700", "ramType": "DDR5", "formFactor": "ATX", "m2Slots": 4, "sataPorts": 6, "price": 220.00 },
+    { "id": "mobo_b650_gaming", "name": "MSI B650 GAMING PLUS WIFI (ATX, AM5, DDR5, 2x M.2, 4x SATA)", "socket": "AM5", "ramType": "DDR5", "formFactor": "ATX", "m2Slots": 2, "sataPorts": 4, "price": 175.00 },
+    { "id": "mobo_x670e_aorus", "name": "Gigabyte X670E AORUS ELITE AX (ATX, AM5, DDR5, 4x M.2, 4x SATA)", "socket": "AM5", "ramType": "DDR5", "formFactor": "ATX", "m2Slots": 4, "sataPorts": 4, "price": 299.00 }
+  ],
+  "rams": [
+    { "id": "ram_ddr4_8gb_2666", "name": "Crucial 8GB (1x8GB) DDR4 2666MHz (Base)", "type": "DDR4", "price": 22.00 },
+    { "id": "ram_ddr4_16gb_3200", "name": "Corsair Vengeance LPX 16GB (2x8GB) DDR4 3200MHz", "type": "DDR4", "price": 38.00 },
+    { "id": "ram_ddr4_32gb_3600", "name": "G.Skill Ripjaws V 32GB (2x16GB) DDR4 3600MHz", "type": "DDR4", "price": 68.00 },
+    { "id": "ram_ddr4_32gb_rgb_3600", "name": "Corsair Vengeance RGB Pro 32GB (2x16GB) DDR4 3600MHz", "type": "DDR4", "price": 79.00 },
+    { "id": "ram_ddr5_16gb_5200", "name": "Kingston Fury Beast 16GB (2x8GB) DDR5 5200MHz", "type": "DDR5", "price": 65.00 },
+    { "id": "ram_ddr5_32gb_5600", "name": "Kingston Fury Beast 32GB (2x16GB) DDR5 5600MHz", "type": "DDR5", "price": 105.00 },
+    { "id": "ram_ddr5_64gb_6000", "name": "G.Skill Trident Z5 64GB (2x32GB) DDR5 6000MHz RGB", "type": "DDR5", "price": 215.00 },
+    { "id": "ram_ddr5_64gb_5600", "name": "Corsair Vengeance 64GB (2x32GB) DDR5 5600MHz", "type": "DDR5", "price": 189.00 }
+  ],
+  "gpus": [
+    { "id": "none_igpu", "name": "Nessuna GPU Dedicata (Utilizza Grafica Integrata iGPU)", "brand": "Integrated", "isIGPU": true, "vram": "Condivisa", "lengthMm": 0, "tdp": 0, "bench": 1800, "price": 0.00 },
+    { "id": "gpu_gt1030", "name": "MSI GeForce GT 1030 2GB GDDR5 (Low Profile)", "brand": "NVIDIA", "isIGPU": false, "vram": "2GB", "lengthMm": 147, "tdp": 30, "bench": 2400, "price": 85.00 },
+    { "id": "gpu_gtx1650", "name": "ASUS GeForce GTX 1650 4GB Phoenix OC", "brand": "NVIDIA", "isIGPU": false, "vram": "4GB", "lengthMm": 190, "tdp": 75, "bench": 5800, "price": 155.00 },
+    { "id": "gpu_rx6400", "name": "PowerColor AMD Radeon RX 6400 ITX 4GB", "brand": "AMD", "isIGPU": false, "vram": "4GB", "lengthMm": 165, "tdp": 53, "bench": 5200, "price": 135.00 },
+    { "id": "gpu_rx6600", "name": "XFX Radeon RX 6600 Speedster 8GB", "brand": "AMD", "isIGPU": false, "vram": "8GB", "lengthMm": 241, "tdp": 132, "bench": 8100, "price": 205.00 },
+    { "id": "gpu_rx7600", "name": "AMD Radeon RX 7600 8GB", "brand": "AMD", "isIGPU": false, "vram": "8GB", "lengthMm": 204, "tdp": 165, "bench": 9400, "price": 279.00 },
+    { "id": "gpu_rtx3060", "name": "MSI GeForce RTX 3060 Ventus 2X 12GB", "brand": "NVIDIA", "isIGPU": false, "vram": "12GB", "lengthMm": 235, "tdp": 170, "bench": 10800, "price": 295.00 },
+    { "id": "gpu_rtx3060ti", "name": "NVIDIA GeForce RTX 3060 Ti 8GB", "brand": "NVIDIA", "isIGPU": false, "vram": "8GB", "lengthMm": 242, "tdp": 200, "bench": 11800, "price": 340.00 },
+    { "id": "gpu_rtx4060_8gb", "name": "MSI GeForce RTX 4060 Ventus 2X 8GB", "brand": "NVIDIA", "isIGPU": false, "vram": "8GB", "lengthMm": 199, "tdp": 115, "bench": 10500, "price": 315.00 },
+    { "id": "gpu_rtx4060ti_16gb", "name": "ASUS Dual GeForce RTX 4060 Ti OC 16GB", "brand": "NVIDIA", "isIGPU": false, "vram": "16GB", "lengthMm": 227, "tdp": 160, "bench": 12400, "price": 445.00 },
+    { "id": "gpu_rx7700xt", "name": "Sapphire Pulse AMD Radeon RX 7700 XT 12GB", "brand": "AMD", "isIGPU": false, "vram": "12GB", "lengthMm": 280, "tdp": 245, "bench": 13900, "price": 429.00 },
+    { "id": "gpu_rx7800xt", "name": "Gigabyte Radeon RX 7800 XT Gaming OC 16GB", "brand": "AMD", "isIGPU": false, "vram": "16GB", "lengthMm": 280, "tdp": 263, "bench": 15600, "price": 519.00 },
+    { "id": "gpu_rtx4070_super", "name": "ASUS Dual GeForce RTX 4070 Super 12GB", "brand": "NVIDIA", "isIGPU": false, "vram": "12GB", "lengthMm": 267, "tdp": 220, "bench": 16800, "price": 620.00 },
+    { "id": "gpu_rtx4075_ti_super", "name": "Gigabyte GeForce RTX 4070 Ti SUPER 16GB", "brand": "NVIDIA", "isIGPU": false, "vram": "16GB", "lengthMm": 300, "tdp": 285, "bench": 19500, "price": 849.00 },
+    { "id": "gpu_rtx4080_super", "name": "Gigabyte GeForce RTX 4080 Super GAMING 16GB", "brand": "NVIDIA", "isIGPU": false, "vram": "16GB", "lengthMm": 342, "tdp": 320, "bench": 22000, "price": 1020.00 },
+    { "id": "gpu_rx7900xtx", "name": "XFX Speedster MERC310 AMD Radeon RX 7900 XTX 24GB", "brand": "AMD", "isIGPU": false, "vram": "24GB", "lengthMm": 344, "tdp": 355, "bench": 23100, "price": 979.00 },
+    { "id": "gpu_rtx4090", "name": "MSI GeForce RTX 4090 Gaming X Trio 24GB", "brand": "NVIDIA", "isIGPU": false, "vram": "24GB", "lengthMm": 337, "tdp": 450, "bench": 26500, "price": 1899.00 }
+  ],
+  "storageCatalog": [
+    { "id": "ssd_240gb", "name": "Kingston A400 240GB 2.5\" SATA SSD", "type": "SATA", "capacity": "240GB", "price": 25.00 },
+    { "id": "ssd_500gb_sata", "name": "Crucial MX500 500GB 2.5\" SATA SSD", "type": "SATA", "capacity": "500GB", "price": 45.00 },
+    { "id": "nvme_500gb", "name": "Kingston NV2 500GB M.2 NVMe SSD", "type": "M.2", "capacity": "500GB", "price": 38.00 },
+    { "id": "nvme_1tb", "name": "Crucial P3 Plus 1TB M.2 NVMe SSD", "type": "M.2", "capacity": "1TB", "price": 65.00 },
+    { "id": "nvme_2tb", "name": "Lexar NM790 2TB M.2 NVMe Gen4 SSD", "type": "M.2", "capacity": "2TB", "price": 129.00 },
+    { "id": "nvme_2tb_pro", "name": "Samsung 990 PRO 2TB M.2 NVMe Gen4 SSD", "type": "M.2", "capacity": "2TB", "price": 169.00 },
+    { "id": "hdd_500gb", "name": "WD Blue 500GB 3.5\" HDD", "type": "SATA", "capacity": "500GB", "price": 32.00 },
+    { "id": "hdd_1tb", "name": "Seagate BarraCuda 1TB 3.5\" HDD", "type": "SATA", "capacity": "1TB", "price": 45.00 },
+    { "id": "hdd_2tb", "name": "Seagate BarraCuda 2TB 3.5\" HDD", "type": "SATA", "capacity": "2TB", "price": 62.00 },
+    { "id": "hdd_4tb", "name": "Seagate BarraCuda 4TB 3.5\" HDD (Archivio)", "type": "SATA", "capacity": "4TB", "price": 92.00 },
+    { "id": "hdd_8tb", "name": "Toshiba X300 8TB 3.5\" HDD Performance", "type": "SATA", "capacity": "8TB", "price": 175.00 }
+  ],
+  "coolers": [
+    { "id": "cooler_stock", "name": "Dissipatore Stock Incluso nella Scatola CPU", "type": "Stock", "tdpRating": 65, "price": 0.00 },
+    { "id": "cooler_air_single", "name": "DeepCool AG400 ARGB Single-Tower", "type": "Air", "tdpRating": 150, "price": 28.00 },
+    { "id": "cooler_air_dual", "name": "Thermalright Peerless Assassin 120 SE Dual-Tower", "type": "Air", "tdpRating": 240, "price": 38.00 },
+    { "id": "cooler_aio_360", "name": "NZXT Kraken 360 RGB 360mm AIO Liquid", "type": "AIO", "tdpRating": 350, "price": 170.00 }
+  ],
+  "cases": [
+    { "id": "case_office_simple", "name": "IT Investment Office Case Micro-ATX", "formFactor": "mATX", "maxGpuMm": 280, "price": 42.00 },
+    { "id": "case_q300l", "name": "Cooler Master MasterBox Q300L (mATX, GPU Max 360mm)", "formFactor": "mATX", "maxGpuMm": 360, "price": 48.00 },
+    { "id": "case_pop_air", name: "Fractal Design Pop Air RGB (ATX, GPU Max 405mm)", "formFactor": "ATX", "maxGpuMm": 405, "price": 88.00 },
+    { "id": "case_lancool_216", "name": "Lian Li LANCOOL 216 Mesh (ATX, GPU Max 392mm)", "formFactor": "ATX", "maxGpuMm": 392, "price": 108.00 },
+    { "id": "case_nzxt_h5_flow", "name": "NZXT H5 Flow RGB (ATX, Vetro Temprato, GPU Max 365mm)", "formFactor": "ATX", "maxGpuMm": 365, "price": 109.00 },
+    { "id": "case_corsair_4000d", "name": "Corsair 4000D Airflow (ATX, High Airflow, GPU Max 360mm)", "formFactor": "ATX", "maxGpuMm": 360, "price": 95.00 },
+    { "id": "case_bequiet_shadow_800", "name": "Be Quiet! Shadow Base 800 FX (Full Tower, GPU Max 430mm)", "formFactor": "ATX", "maxGpuMm": 430, "price": 179.00 },
+    { "id": "case_phanteks_g360a", "name": "Phanteks Eclipse G360A D-RGB (ATX, GPU Max 400mm)", "formFactor": "ATX", "maxGpuMm": 400, "price": 89.00 }
+  ],
+  "psus": [
+    { "id": "psu_400w", "name": "Kolink 400W 80 Plus (Entry / Office)", "watts": 400, "price": 38.00 },
+    { "id": "psu_550w", "name": "Corsair CV550 550W (80+ Bronze)", "watts": 550, "price": 58.00 },
+    { "id": "psu_750w", "name": "Corsair RM750e 750W (80+ Gold Fully Modular ATX 3.0)", "watts": 750, "price": 110.00 },
+    { "id": "psu_1000w", "name": "MSI MPG A1000G PCIE5 1000W (80+ Gold)", "watts": 1000, "price": 189.00 }
+  ]
+}
