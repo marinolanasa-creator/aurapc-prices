@@ -76,7 +76,7 @@
   "cases": [
     { "id": "case_office_simple", "name": "IT Investment Office Case Micro-ATX", "formFactor": "mATX", "maxGpuMm": 280, "price": 42.00 },
     { "id": "case_q300l", "name": "Cooler Master MasterBox Q300L (mATX, GPU Max 360mm)", "formFactor": "mATX", "maxGpuMm": 360, "price": 48.00 },
-    { "id": "case_pop_air", name: "Fractal Design Pop Air RGB (ATX, GPU Max 405mm)", "formFactor": "ATX", "maxGpuMm": 405, "price": 88.00 },
+    { "id": "case_pop_air", "name": "Fractal Design Pop Air RGB (ATX, GPU Max 405mm)", "formFactor": "ATX", "maxGpuMm": 405, "price": 88.00 },
     { "id": "case_lancool_216", "name": "Lian Li LANCOOL 216 Mesh (ATX, GPU Max 392mm)", "formFactor": "ATX", "maxGpuMm": 392, "price": 108.00 },
     { "id": "case_nzxt_h5_flow", "name": "NZXT H5 Flow RGB (ATX, Vetro Temprato, GPU Max 365mm)", "formFactor": "ATX", "maxGpuMm": 365, "price": 109.00 },
     { "id": "case_corsair_4000d", "name": "Corsair 4000D Airflow (ATX, High Airflow, GPU Max 360mm)", "formFactor": "ATX", "maxGpuMm": 360, "price": 95.00 },
